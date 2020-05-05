@@ -1,0 +1,6 @@
+archivo = open("Guarda palabras.txt", "w")
+archivo.write("Hola, buenos días\n")
+archivo.write("¿Quieres introducir unas palabras?\n")
+palabra = str(input())
+archivo.write(palabra)
+archivo.close()

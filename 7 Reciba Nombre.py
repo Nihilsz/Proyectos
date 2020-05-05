@@ -1,0 +1,7 @@
+print("¿Que nombre le pongo?")
+nombre = input()
+archivo = open("nombre.txt","w")
+print("¿Quieres poner texto?")
+palabra = str(input())
+archivo.write(palabra)
+archivo.close()
